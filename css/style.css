@@ -85,3 +85,133 @@ section{
     list-style: none;
     margin: 15px 0;
 }
+/* My Plan Styles */
+.section-title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.my-plans-card{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card{
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+}
+.card-title{
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.card-sub-title{
+    font-size: 25px;
+    margin-top: 25px;
+    font-weight: 500;
+    color: #6b6b6b;
+}
+/* Gradient  */
+.gradient{
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.gradient-img{
+    background: linear-gradient(90deg,rgba(9, 135, 238, 0.897),rgba(0, 0, 0, 0.301)), url(../images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 10px;
+    width: 80%;
+}
+.gradient-title{
+    width: 600px;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+/* Blog Styles */
+.blogs-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.blog-card{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #b4b4b41a;
+    padding: 10px;
+}
+.blog-img{
+    width: 300px;
+    height: 200px;
+}
+.blog-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.blog-description{
+    font-size: 20px;
+    color: #6b6b6b;
+    margin-top: 30px;
+}
+/* Footer Styles */
+.footer{
+    background-color: #151414;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+}
+.footer-content{
+    width: 500px;
+}
+.footer-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer-description{
+    color: #e4e4e4c2;
+    font-size: 16px;
+}
+.social-icon img{
+    margin-left: 20px;
+}
+.footer-form{
+    width: 300px;
+}
+.form-title{
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer-form input{
+    width: 300px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    background: transparent;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sub-btn{
+    background-color: #005FAC;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
