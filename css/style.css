@@ -183,16 +183,25 @@ section{
     color: #e4e4e4c2;
     font-size: 16px;
 }
+.email{
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+.phone{
+    color: #FFFFFF;
+    margin: 20px 0;
+}
 .social-icon img{
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 .footer-form{
     width: 300px;
 }
 .form-title{
     color: #FFFFFF;
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-bottom: 30px;
+    font-size: 30px;
     font-weight: 500;
 }
 .footer-form input{
@@ -203,7 +212,7 @@ section{
     font-size: 20px;
     padding: 15px;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .sub-btn{
     background-color: #005FAC;
@@ -211,7 +220,7 @@ section{
     font-size: 20px;
     font-weight: 500;
     color: #FFFFFF;
-    padding: 20px 25px;
+    padding: 15px 22px;
     border-radius: 5px;
     cursor: pointer;
 }
